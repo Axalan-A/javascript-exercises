@@ -16,7 +16,7 @@ const fibonacci = function(index) {
         for(let i = 1; i < index; i++){
         let currTerm = firstTerm + secondTerm;
         firstTerm = secondTerm;
-        secondTerm = currTerm
+        secondTerm = currTermn
         }
     }
     return secondTerm
